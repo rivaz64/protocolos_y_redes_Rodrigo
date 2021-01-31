@@ -153,6 +153,7 @@
   <ItemGroup>
     <ClCompile Include="Button.cpp" />
     <ClCompile Include="CFont.cpp" />
+    <ClCompile Include="coneccion.cpp" />
     <ClCompile Include="CTexture.cpp" />
     <ClCompile Include="DeltaTime.cpp" />
     <ClCompile Include="Game.cpp" />
@@ -168,6 +169,7 @@
   <ItemGroup>
     <ClInclude Include="Button.h" />
     <ClInclude Include="CFont.h" />
+    <ClInclude Include="coneccion.h" />
     <ClInclude Include="CTexture.h" />
     <ClInclude Include="DeltaTime.h" />
     <ClInclude Include="Game.h" />

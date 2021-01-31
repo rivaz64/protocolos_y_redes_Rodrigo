@@ -32,7 +32,7 @@ void Game::run()
 
 void Game::init()
 {
-	m_window = new sf::RenderWindow(sf::VideoMode(500, 500), "Chess");
+	m_window = new sf::RenderWindow(sf::VideoMode(1920, 1080), "Chess");
 	for (int i = 0; i < 2; i++) {
 		p.push_back(player());
 		p[i].id = i;
