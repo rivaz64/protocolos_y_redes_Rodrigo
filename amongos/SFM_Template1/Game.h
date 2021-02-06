@@ -2,6 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include"player.h"
 #include"room.h"
+#include "coneccion.h"
 class Game
 {
 public:
@@ -11,6 +12,8 @@ public:
 
 	~Game();
 	Game();
+	static coneccion c;
+	static coneccion d;
 	static std::vector<player> p;
 	static void save();
 	static void load();

@@ -159,6 +159,7 @@
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Input.cpp" />
     <ClCompile Include="MenuManager.cpp" />
+    <ClCompile Include="networkmanager.cpp" />
     <ClCompile Include="player.cpp" />
     <ClCompile Include="randomer.cpp" />
     <ClCompile Include="room.cpp" />
@@ -176,6 +177,7 @@
     <ClInclude Include="Globals.h" />
     <ClInclude Include="Input.h" />
     <ClInclude Include="MenuManager.h" />
+    <ClInclude Include="networkmanager.h" />
     <ClInclude Include="player.h" />
     <ClInclude Include="randomer.h" />
     <ClInclude Include="room.h" />

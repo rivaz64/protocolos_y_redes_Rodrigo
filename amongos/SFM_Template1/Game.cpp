@@ -6,6 +6,8 @@ sf::RenderWindow* Game::m_window;
 sf::CircleShape Game::m_shape;
 sf::Time Game::timePerFrame = sf::seconds(1.f / 60.f);
 std::vector<player> Game::p;
+ coneccion Game::c;
+ coneccion Game::d;
 void Game::run()
 {
 	init();
@@ -38,6 +40,9 @@ void Game::init()
 		p[i].id = i;
 	}
 	load();
+	d.conect(54000);
+	c.conect(54001);
+	d.escuchar();
 	/*m_shape.setFillColor(sf::Color::Red);
 	m_shape.setPosition({100, 100});
 	m_shape.setRadius(25);*/
@@ -45,6 +50,7 @@ void Game::init()
 
 void Game::update()
 {
+	c.enviar();
 	for (player& a : p) {
 		a.update();
 	}
